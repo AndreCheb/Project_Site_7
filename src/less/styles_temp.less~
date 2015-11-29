@@ -1,0 +1,73 @@
+@import "bootstrap/bootstrap.less";
+@import "variables.less";
+
+body{
+
+	header{
+		border: 0px solid #000000;
+		background: #141414;
+		height: 100px;
+		
+		.container{
+			height: 100px;
+			background: #141414;
+			
+			.name{
+				background: #141414;
+				padding-left: 1px;
+				
+				a{
+					text-decoration: none;
+					
+					&.active{
+						color: #ffffff;
+					}
+				}
+				
+				.language{
+					padding-top: 12px;
+					font-size: 10px;
+				}
+				
+				.nameFirma{
+					padding-top: 10px;
+					font-weight: bold;
+					font-size: 22px;
+					.navysoft{
+						color: #ffffff;
+					}
+					/*цвет по буквам*/
+					.navysoft span:nth-child(1) {color: #17bde7;}
+					.navysoft span:nth-child(6) {color: #1187c4;}
+				}
+			}
+			
+        .navbar{
+        		padding-top: 35px;
+        		a {
+            	font-size: 14px;
+        		}
+        		
+        		.dropdown-menu{
+        			margin-top: 23px;
+        			background: #141414;
+        			
+        			a{
+        				font-size: 12px;
+        				color: #ffffff;
+        				&.active{
+        					color: #17bde7;
+        				}
+        			}
+        		}
+       	} 
+            
+			
+			
+			
+		
+		}
+		
+	}
+
+}

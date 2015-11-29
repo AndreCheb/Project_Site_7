@@ -1,0 +1,96 @@
+
+	slider{
+		.container{
+			background: #ffffff;
+			border-bottom: 3px solid #1187c4;
+			padding-right: 0px;
+			padding-left: 0px;
+			
+			.carousel{
+				
+				.carousel-indicators{
+					position: absolute;
+					bottom: 86%;
+					left: 93%;
+					padding-left: 5px;					
+					
+					li{
+						border-radius: 0px;
+						border: 2px solid #1187c4;
+						background-color: #ffffff;
+						width:  14px;
+						height: 14px;
+						margin: 0px;
+						
+						&.active{
+							background-color: #141414;
+							margin: 0px;
+						}
+					}
+				}
+				
+				.carousel-control{
+  					.icon-prev,
+  					.icon-next{
+  						top: 45%;    					    					
+    					margin-top: -19px;
+  					}
+  					
+  					.icon-prev{
+  						width:  21px;
+  						height: 44px;  						
+    					left: 20%;
+    					margin-left: -10px;    					
+
+    					&:before {
+      					content: url(../images/icon-prev.png);
+    					}  					
+  					}
+  					
+  					.icon-next{
+  						width:  21px;
+  						height: 44px;
+    					right: 20%;
+    					margin-right: -10px;    					
+    						
+    					&:before {
+      					content: url(../images/icon-next.png);
+    					}  					
+  					}
+  					  										
+				}
+				
+				.carousel-caption{
+					left: 15%;
+					right: 15%;
+					top: 105px;
+					font-size: 30px;
+					line-height: 1.2;
+					link-color: #ffffff;
+					
+        			a{
+        				text-decoration: underline;        						
+        				color: #17bde7;
+        				
+        				&:hover{
+        					color: #ffffff;
+        				}        						       						
+         		}
+
+					.carousel-caption-text{												
+						margin-bottom: 0px;
+						
+					}
+					
+					.carousel-caption-text-2{
+						margin-bottom: 0px;						
+						color: #17bde7;						
+					}
+
+				}
+			
+			}
+			
+		}
+		
+	}	

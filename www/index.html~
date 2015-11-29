@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+    	<meta charset="utf-8">
+        <title>NavySoft</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+			<meta name="description" content="">
+			<meta name="keywords" content="">
+        	<link href="css/styles.css" rel="stylesheet" type="text/css">
+        	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cuprum:400,300" type="text/css">
+        	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+        	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+        	<link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96">
+        	
+        	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png">
+        	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+        	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+        	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+        	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+        	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+        	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+        	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png">
+
+			<meta name="msapplication-TileColor" content="#141414">
+			<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+			<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+
+        	<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>    	
+    		<header>
+    			<div class="container">
+    				<div class="row">    															    					    														   				    					
+    					<div class="col-md-2">    								
+    						<div class="logo-big-header">
+    							<img src="images/logo-big-header.png" alt="NavySoft logo">
+    						</div>
+    							    							    							    								
+    						<ul>
+    							<li>
+									<div class="language">
+										<a class="active" href="/home/">RUS</a>
+										<a href="#">| EN</a>
+									</div>
+    							</li>
+    							<li>
+									<div class="navysoft">
+										<span>N</span><span>a</span><span>v</span><span>y</span><span> </span><span>S</span><span>o</span><span>f</span><span>t</span>								
+									</div>    									
+    							</li>
+    						</ul>
+    								
+    					</div>
+    							   							    														   								    					    							    				    							    										  							    				    							
+    					<div class="col-md-7">
+    						<div class="header-menu">
+    							<div class="navbar-header">
+    								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">    						
+    									<span class="glyphicon glyphicon-list"> Меню</span>
+    								</button>    					
+    							</div>
+
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+									
+    								<ul class="nav nav-justified">	
+    									<li>
+    										<div class="punkt-navbar">
+    											<a class="active" href="#">ГЛАВНАЯ</a>
+    										</div>
+    									</li>
+    									<li>
+    										<div class="punkt-navbar">
+    											<a href="#">НОВОСТИ</a>
+    										</div>
+    									</li>
+
+        								<li class="dropdown">
+        									<div class="punkt-navbar">
+        										<a href="#" class="dropdown-toggle" data-toggle="dropdown">ПРОДУКЦИЯ <b class="glyphicon glyphicon-menu-down"></b></a>
+        										<ul class="dropdown-menu">
+        											<li><a href="#">ГРАФИЧЕСКИЕ КАРТЫ</a></li>
+        											<li><a class="active" href="#">ИНТЕРАКТИВНЫЕ КАРТЫ</a></li>
+        											<li><a href="#">КОМПАСЫ</a></li>
+        											<li><a href="#">СРЕДСТВА НАВИГАЦИИ</a></li>
+        										</ul>
+        									</div>
+        								</li>
+    							
+    									<li>
+    										<div class="punkt-navbar">
+    											<a href="#">КОНТАКТЫ</a>
+    										</div>
+    									</li>
+    									<li>
+    										<div class="punkt-navbar-profile">
+    											<a href="#">ПРОФИЛЬ</a>
+    										</div>
+    									</li>
+    							
+									</ul>
+								</div>
+							</div>
+						</div>
+																    														
+    					<div class="col-md-3">
+    							<div class="fon-adress-header visible-lg">
+    								<div class="logo-small-header">
+    									<img src="images/logo-small-header-3.png" alt="Fon">
+    								</div>    																    						
+    							    							    								
+    								<ul>
+    									<li>
+											<div class="fon-adress-text">
+												<span>+7(812) 111-22-33</span>
+											</div>
+    									</li>
+    									<li>
+											<div class="fon-adress-text-2">
+												<span>19000 Россия, г. Санкт-Петербург,</span>
+											</div>    										
+    									</li>
+    									<li>
+											<div class="fon-adress-text-3">
+												<span>Невский проспект, 1</span>
+											</div>    										
+    									</li>
+    								</ul>
+								</div>																   								    					
+    					</div>    							    							    						    							    						    					    				    						
+    				</div>
+				</div>		
+			</header>
+
+    	<slider>
+    		<div class="container visible-lg">
+    		
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  				<!-- Indicators -->
+  					<ol class="carousel-indicators">
+    					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+   					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+   					<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  					</ol>
+
+  				<!-- Wrapper for slides -->
+  					<div class="carousel-inner">
+    					<div class="item active">
+      					<img src="images/slide_1.png" alt="slide_1">
+      					<div class="carousel-caption">
+        						<p class = "carousel-caption-text">Обновление интерактивных карт до версии 2.1</p>
+        						<p class = "carousel-caption-text-2">Доступ к ним вы можете получить после</p>
+        						<p class = "carousel-caption-text-2">регистрации в <a href="#">профиле</a></p>
+      					</div>
+    					</div>
+    					<div class="item">
+      					<img src="images/slide_2.png" alt="slide_2">
+      					<div class="carousel-caption">
+        						<p class = "carousel-caption-text">Обновление интерактивных карт до версии 2.1</p>
+        						<p class = "carousel-caption-text-2">Доступ к ним вы можете получить после</p>
+        						<p class = "carousel-caption-text-2">регистрации в <a href="#">профиле</a></p>
+      					</div>
+    					</div>
+    					<div class="item">
+      					<img src="images/slide_3.png" alt="slide_3">
+      					<div class="carousel-caption">
+        						<p class = "carousel-caption-text">Обновление интерактивных карт до версии 2.1</p>
+        						<p class = "carousel-caption-text-2">Доступ к ним вы можете получить после</p>
+        						<p class = "carousel-caption-text-2">регистрации в <a href="#">профиле</a></p>
+      					</div>
+    					</div>
+    					<div class="item">
+      					<img src="images/slide_4.png" alt="slide_4">
+      					<div class="carousel-caption">
+         						<p class = "carousel-caption-text">Обновление интерактивных карт до версии 2.1</p>
+        						<p class = "carousel-caption-text-2">Доступ к ним вы можете получить после</p>
+        						<p class = "carousel-caption-text-2">регистрации в <a href="#">профиле</a></p>
+      					</div>
+    					</div>
+    					<div class="item">
+      					<img src="images/slide_5.png" alt="slide_5">
+      					<div class="carousel-caption">
+        						<p class = "carousel-caption-text">Обновление интерактивных карт до версии 2.1</p>
+        						<p class = "carousel-caption-text-2">Доступ к ним вы можете получить после</p>
+        						<p class = "carousel-caption-text-2">регистрации в <a href="#">профиле</a></p>
+      					</div>
+    					</div>
+    					
+  					</div>
+
+  				<!-- Controls -->
+  					<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    					<span class="icon-prev"></span>
+  					</a>
+  					<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    					<span class="icon-next"></span>
+  					</a>
+				
+ 				</div>
+
+    		</div>
+    	</slider>
+    	
+    	<main>
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-sm-9">
+    					<div class="content">
+    					<div class="container-fluid">
+    						<div class="heading">
+    							<h1>Главная</h1>
+    							<h2>О компании</h2>
+    						</div>
+    					
+    						<div class="main-image-1 visible-md visible-lg">  					
+  								<img src="images/logo-ship-main-2.png" alt="NavySoft logo">
+    							<li></li>  						
+  							</div>
+					
+    						<div class="copy-main-image-1 visible-xs visible-sm">  					
+  								<li></li>
+    							<li class="copy-main-image-2"></li>  						
+  							</div>
+
+    					<div class="main-table">  					
+  							<table class="table">
+  								<tr>
+  									<td class="main-table-td-1">18.03.2010</td>
+  									<td class="main-table-td-2">2015</td>
+  									<td class="main-table-td-3"><img src="images/main-infinity.png" alt=""></td>
+  								</tr>
+  							</table>  						
+  						</div>
+					    					
+    					<div class="main-content-1">
+    						<p><strong>Компания ООО "НавиСофт" была основана 18 марта 2010 года.</strong><br>
+   						Наша компания берет начало от Навигационной камеры Балтийского морского пароходства. Основным видом деятельности является снабжение водного транспорта всеми необходимыми актуальными печатными изданиями.</p>  					
+  						</div>
+
+    					<div class="main-table-2">  					
+  							<table class="table">
+  								<tr>
+  									<td rowspan="7" class="main-table-2-td-1 visible-lg"><img src="images/main-table-2.png" alt=""></td>
+  									<td class="main-table-2-td-2-color">Снабжение откорректированными морскими навигационными картами, пособиями и руководствами для плавания</td>  									
+  								</tr>
+  								<tr>  									
+  									<td class="main-table-2-td-2">Снабжение Атласами ЕГС по внутренним водным путям России и сопутствующей литературой необходимой на каждом судне смешанного река-море плавания</td>  									
+  								</tr>
+  								<tr>  									
+  									<td class="main-table-2-td-2-color">Подбор нав. карт и пособий на переход до порта назначения</td>  									
+  								</tr>
+  								<tr>  									
+  									<td class="main-table-2-td-2">Снабжение извещениями мореплавателям (ИМ) и извещениями судоводителям (ИС) в печатном виде</td>  									
+  								</tr>
+  								<tr>  									
+  									<td class="main-table-2-td-2-color">Прокладочный инструмент</td>  									
+  								</tr>
+  								<tr>  									
+  									<td class="main-table-2-td-2">Корректура судовых коллек</td>  									
+  								</tr>
+  								<tr>  									
+  									<td class="main-table-2-td-2-color">Подбор нав. карт и пособий на переход до порта назначения</td>  									
+  								</tr>
+  							</table>  						
+  						</div>
+
+    					<div class="main-content-2">
+    						<p>У нас имеется своя эксклюзивная коллекция оригиналов карт, которая насчитывает более 5000 экземпляров. Коллекция сводной корректуры книг с 1970 г. У нас трудятся опытные, высокопрофессиональные техники-корректоры, с высшим профессиональным образованием и опытом работы в данной сфере более 30 лет.</p>
+    						<p class="p-2-main-content-2">Корректура навигационных карт, пособий для плавания и своевременное снабжение ими судов флота - наша главная задача, с которой специалисты ООО "НавиСофт" справляются блестяще, в кратчайшие сроки и без нареканий со стороны судоводителей и сторонних организаций.</p>
+    						<p class="p-2-main-content-2">У нас имеется свое уникальное печатное производство (морская типография), по изготовлению судовых журналов, знаков ИМО, а также различной сувенирной продукции на морскую тематику и не только.</p>
+    						<h3>Наши партнеры</h3>    				
+  						</div>
+
+						<div id="main-carousel-1" class="carousel slide" data-ride="carousel">
+
+  						<!-- Wrapper for slides -->
+  							<div class="carousel-inner">
+    							<div class="item active">
+									<div class="row-fluid">
+							
+										<div class="span4 col-xs-3">									   						      					
+      									<a href="#x"><img src="images/logo-gasprom-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>
+      								
+										<div class="span3 col-xs-3">									    						      					
+      									<a href="#x"><img src="images/logo-lukoil-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>
+      								
+										<div class="span3 col-xs-3">									    						      					
+      									<a href="#x"><img src="images/logo-gerbRF-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>
+
+										<div class="span3 col-xs-3">									   						      					
+      									<a href="#x"><img src="images/logo-torgFlot-small.png" alt="Image" class="img-responsive center-block"></a>      							
+      								</div>
+
+    								</div>
+    							</div>
+
+    							<div class="item">
+									<div class="row-fluid">
+										<div class="span4 col-xs-3">									    						      					
+      									<a href="#x"><img src="images/logo-gasprom-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>      								
+										<div class="span3 col-xs-3">									    						      					
+      									<a href="#x"><img src="images/logo-lukoil-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>
+      								
+										<div class="span3 col-xs-3">									    						      					
+      									<a href="#x"><img src="images/logo-gerbRF-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>
+
+										<div class="span3 col-xs-3">									    						      					
+      									<a href="#x"><img src="images/logo-torgFlot-small.png" alt="Image" class="img-responsive"></a>      							
+      								</div>
+
+    								</div>
+    							</div>
+    							    					    					
+  							</div>
+
+  							<!-- Controls -->
+  							<a class="left carousel-control" href="#main-carousel-1" data-slide="prev">
+    							<span class="icon-prev"></span>
+  							</a>
+  							<a class="right carousel-control" href="#main-carousel-1" data-slide="next">
+    							<span class="icon-next"></span>
+  							</a>
+				
+ 						</div>
+
+    				</div>
+    				</div>
+    				</div>
+    		
+    				<div class="col-sm-3">
+    					<div class="news">
+    						<div class="container-fluid">
+    							<div class="main-news-container">
+    								<div class="main-news-container-data">
+    									<span>26.09.2015</span>
+    								</div>
+    							
+    								<div class="main-news-container-zagolovok">
+    									<span>ЭРНК стали одним из спонсоров детско-юношеской регаты Юнга-Трофи</span>
+    								</div>
+    							
+    								<hr>
+
+    								<div class="main-news-container-text">
+    									<p>ООО "ЭРНК" получили благодарность от федерации парусного спорта Краснодарского края ...</p>
+    								</div>
+    							
+   								<div class="main-news-container-link">
+    									<p><a href="#">Подробнее</a></p>
+    								</div>
+  
+  								</div>
+    						</div>
+						</div>    					    					    					
+    				</div>
+												    		
+    			</div>    			
+    		</div>
+    	</main>
+    	
+    	<footer-img class="footer visible-lg">    		
+    		<div class="footer-1">
+    			<div class="footer-1-img-1">
+    				<img src="images/footer-1-img1.png" alt="">
+    			</div>
+    			<div class="footer-1-img-2">
+    				<img src="images/footer-1-img1.png" alt="">
+    			</div>
+    		</div>    		    		
+    	</footer-img>
+    	
+    	<footer-nav>
+    		<footer>
+    		
+    			<div class="container">
+    				<div class="navbar-header">
+    					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">    						
+    						<span class="glyphicon glyphicon-list"> Меню</span>
+    					</button>    					
+    				</div>
+    				
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    				
+    					<ul class="nav nav-justified">
+    						<li>    								
+    							<a href="#">ГЛАВНАЯ</a>    								
+    						</li>
+    						<li>    								
+    							<a href="#">НОВОСТИ</a>    								
+    						</li>
+    						<li>    								
+    							<a href="#">ПРОДУКЦИЯ</a>    								
+    						</li>
+    						<li>    								
+    							<a href="#">КОНТАКТЫ</a>    								
+    						</li>
+    						<li>    								
+    							<a href="#">ПРОФИЛЬ</a>    								
+    						</li>
+    					</ul>
+    				
+    				</div>
+    				
+    			</div>
+    		</footer>
+    	</footer-nav>
+    	
+    	<footer-contact>
+    		<footer>
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-4">
+    						<div class="fon">
+    							<img src="images/logo-small-header-31.png" class="img-fon" alt="">
+    							<H4>+7(812) 111-22-33</H4>
+    						</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="adress">
+    							<img src="images/logo-small-header-32.png" class="img-adress" alt="">
+    							<p>19000 Россия, г. Санкт-Петербург, Невский проспект, 1</p>
+    						</div>
+    					</div>
+    					<div class="col-md-4">
+    						<div class="e-mail">
+    							<img src="images/logo-small-header-33.png" class="img-email" alt="">
+    							<a href="mailto:NavySoft@navsoft.ru"><H4>NavySoft@navsoft.ru</H4></a>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</footer>
+    	</footer-contact>    	    	    	    
+		
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+		    	
+   </body>
+</html>
